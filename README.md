@@ -300,32 +300,54 @@ These elements help create a smoother user experience during the study.
 
 ## Project Structure
 
+The Unity project is organized into separate folders for assets, scenes, prefabs, scripts, XR configuration, and supporting resources.
+
 ```text
-ChemLabVR/
+Assets/
 │
-├── Assets/
-│   ├── Scripts/
-│   │   ├── ProcedureTracking/
-│   │   ├── Guidance/
-│   │   ├── Validation/
-│   │   ├── Interaction/
-│   │   ├── Logging/
-│   │   ├── UI/
-│   │   └── ExperimentManagement/
-│   │
-│   ├── Prefabs/
-│   │   ├── LabEquipment/
-│   │   ├── UI/
-│   │   └── GuidanceTargets/
-│   │
-│   ├── Scenes/
-│   │   ├── TutorialScene
-│   │   └── ExperimentScene
-│   │
-│   ├── Materials/
-│   ├── Models/
-│   └── Audio/
+├── Audios/
 │
-├── ProjectSettings/
+├── Images/
+│
+├── Materials/
+│
 ├── Packages/
-└── README.md
+│
+├── Prefabs/
+│
+├── Resources/
+│
+├── Samples/
+│
+├── Scenes/
+│
+├── Scripts/
+│   ├── Actions/
+│   ├── Audios/
+│   ├── Beakers/
+│   │   └── Liquids/
+│   ├── Bottles/
+│   ├── Clipboards/
+│   ├── Containers/
+│   ├── ElectricHeaters/
+│   ├── Experiments/
+│   ├── Guidance/
+│   ├── Outlines/
+│   ├── Participant/
+│   ├── Pipettes/
+│   │   ├── Inserters/
+│   │   └── States/
+│   ├── Powders/
+│   ├── Procedures/
+│   ├── ReactionTubes/
+│   │   └── Liquids/
+│   ├── Spatulas/
+│   │   ├── Inserters/
+│   │   └── States/
+│   ├── StirringRods/
+│   │   ├── Inserters/
+│   │   └── States/
+│   └── Validation/
+│
+├── XR/
+└── XRI/
